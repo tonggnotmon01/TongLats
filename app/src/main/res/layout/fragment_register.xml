@@ -76,4 +76,5 @@
         android:hint="Password :"
         android:inputType="textPassword" />
    </LinearLayout>
+
 </FrameLayout>
