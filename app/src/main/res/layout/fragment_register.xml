@@ -29,6 +29,7 @@
 
     <!--Name-->
     <EditText
+        android:background="@drawable/user"
         android:id="@+id/edtName"
         android:inputType="text"
         android:hint="Name :"
@@ -69,6 +70,7 @@
     </RadioGroup>
     <!--User-->
     <EditText
+        android:background="@drawable/user"
         android:id="@+id/edtUser"
         android:inputType="text"
         android:hint="User :"
@@ -77,6 +79,7 @@
 
     <!--Password-->
     <EditText
+        android:background="@drawable/user"
         android:id="@+id/edtPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
