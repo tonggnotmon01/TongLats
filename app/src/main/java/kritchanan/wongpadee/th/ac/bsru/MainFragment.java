@@ -46,6 +46,34 @@ public class MainFragment extends Fragment {
                         .commit();
             }
         });
+        TextView textView1 = getView().findViewById(R.id.txtNumone);
+        textView1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+//                Replace Fragment
+                getActivity()
+                        .getSupportFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.layoutMainFragmant, new Num1Fragment())
+                        .addToBackStack(null)
+                        .commit();
+            }
+        });
+        TextView textView2 = getView().findViewById(R.id.txtNumtwo);
+        textView2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+//                Replace Fragment
+                getActivity()
+                        .getSupportFragmentManager()
+                        .beginTransaction()
+                        .replace(R.id.layoutMainFragmant, new Num2Fragment())
+                        .addToBackStack(null)
+                        .commit();
+            }
+        });
     }
 
     @Override
